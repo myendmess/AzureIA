@@ -1,0 +1,1 @@
+curl -X POST "https://lab1az102.cognitiveservices.azure.com//text/analytics/v3.1/languages?" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: 97938ebc48d14cbf8bfb53204fda681d" --data-ascii "{'documents':[{'id':1,'text':'hello'}]}"
